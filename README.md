@@ -3,6 +3,7 @@
 ## Synopsis
 
 This game is a rendition of the classic 80s game, Simon using HTML5/CSS3, JavaScript / jQuery.
+The use of Object oriented programming methods is demonstrated.
 
 The app is live at http://cabelin.com/simon
 
