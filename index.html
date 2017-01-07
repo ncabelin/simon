@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Simon Game</title>
+  <meta charset="UTF-8">
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<audio id="audio1" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+	<audio id="audio2" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+	<audio id="audio3" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+	<audio id="audio4" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+	<link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <h1 class="text-center">Simon Game</h1>
+	<hr>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<table>
+				<tr>
+					<td class="cells btn" value=1 id="greenB"></td>
+					<td class="cells btn" value=2 id="redB"></td>
+				</tr>
+				<tr>
+					<td class="cells btn" value=3 id="yellowB"></td>
+					<td class="cells btn" value=4 id="blueB"></td>
+				</tr>
+				</table>
+			</div>
+			<div class="col-md-6">
+				<div class="container panel2">
+					<input id="counter" type="number" value=0 />
+					<h4><b>HOW TO PLAY:</b></h4>
+					<ol class="container">
+						<li>The objective is to repeat the computer's generated patterns</li>
+						<li>The patterns will increase with each success</li>
+						<li>Press start to begin</li>
+						<li>Press rewind to hear the pattern again</li>
+						<li>Press reset to reset the game</li>
+						<li>You win when you get to 20 patterns. Good Luck !</li>
+					</ol>
+					<button class="btn btn-primary btn2" id="start">START</button>
+					<button class="btn btn-success btn2" id="restart">RESET</button>
+					<button class="btn btn-default btn2" id="rewind">REWIND</button>
+					<button class="btn btn-danger btn2" id="strict">STRICT</button>
+					<h2 id="wrong"></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container-fluid">
+		<div class="col-md-12">
+			<p class="text-center">Copyright &copy; 2015 <a href="http://cabelin.com">N.M.Cabelin</a></p>
+		</div>
+	</div>
+
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- bootstrap js -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>

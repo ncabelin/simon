@@ -1,0 +1,114 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size:50px;
+}
+.cells {
+	margin:0px;
+	padding:0px;
+	height:190px;
+	width:190px;
+}
+
+.btn2 {
+	padding:5px;
+	height:40px;
+	width:100px;
+	border-radius: 50px;
+}
+
+#greenB {
+	background-color:#007000;
+	border-top-left-radius: 100%;
+	border-top: solid 20px black;
+	border-left: solid 20px black;
+	border-right: solid 10px black;
+	border-bottom: solid 10px black;
+}
+
+#redB {
+	background-color:red;
+	border-top-right-radius: 100%;
+	border-top: solid 20px black;
+	border-right: solid 20px black;
+	border-left: solid 10px black;
+	border-bottom: solid 10px black;
+}
+
+#blueB {
+	background-color:blue;
+	border-bottom-right-radius: 100%;
+	border-top: solid 10px black;
+	border-right: solid 20px black;
+	border-left: solid 10px black;
+	border-bottom: solid 20px black;
+}
+
+#yellowB {
+	background-color:yellow;
+	border-bottom-left-radius: 100%;
+	border-top: solid 10px black;
+	border-left: solid 20px black;
+	border-right: solid 10px black;
+	border-bottom: solid 20px black;
+}
+
+table {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.buttonGroup {
+	text-align: center;
+}
+button:focus {
+	outline:0 !important;
+}
+#restart {
+	display:none;
+}
+#counter {
+	height:40px;
+	width:60px;
+	background-color:black;
+	color:white;
+	padding:5px 10px 5px 10px;
+}
+.red {
+	color:red;
+}
+.green {
+	color:green;
+}
+input {
+	font-size:20px;
+}
+panel2 {
+	margin-right: 20px;
+}
+hr {
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+@media screen and (max-width:500px) {
+	.cells {
+		height: 90px;
+		width: 90px;
+	}
+}
