@@ -7,7 +7,7 @@ The use of Object oriented programming methods is demonstrated.
 
 The app is live at http://cabelin.com/simon
 
-![simon](http://cabelin.com/simon/images/screenshot.jpg)
+![simon](http://res.cloudinary.com/dd6kwd0zn/image/upload/v1499203028/screenshot-5_avxqtp.jpg)
 
 ## Instructions
 
